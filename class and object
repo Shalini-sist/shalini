@@ -1,0 +1,20 @@
+class fruits shop:
+
+
+   def_init_(self,name,apple,mango,orange,banana):
+      self.name = name
+      self.apple = apple
+      self.mango = mango
+      self.orange = orange
+      self.banana = banana
+      
+      
+   def items(self):
+       list = f'''customer Name : {self.name}\n Apple : {self.apple}\n mango : {self.mango}\n orange : {self.orange}\n banana : {self.banana}\n'''
+       return list
+       
+ customer  = fruits shop('imili',5 , 6, 7, 8)
+ 
+ 
+ print(customer.items())
+ 
